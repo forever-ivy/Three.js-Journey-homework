@@ -4,6 +4,8 @@ A comprehensive Three.js learning project covering fundamental concepts to advan
 
 ## 📚 Course Overview
 
+<img width="1194" height="746" alt="image" src="https://github.com/user-attachments/assets/3c553f72-6daf-41e6-a09d-b28c784514d3" />
+
 ### Foundation
 - **03-first-threejs-project** - First Three.js Project
 - **04-transform-objects** - Transform Objects
