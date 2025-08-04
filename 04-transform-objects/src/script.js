@@ -1,5 +1,16 @@
 import * as THREE from 'three'
 
+/**
+ * Debug
+ */
+const gui = new GUI()
+
+const parameters = {
+    materialColor: '#ffeded'
+}
+
+gui.addColor(parameters, 'materialColor')
+
 // Canvas
 const canvas = document.querySelector('canvas.webgl')
 
@@ -63,7 +74,9 @@ scene.add(camera)
  * Renderer
  */
 const renderer = new THREE.WebGLRenderer({
-    canvas: canvas
+    canvas: canvas,
+    alpha: true
 })
 renderer.setSize(sizes.width, sizes.height)
+
 renderer.render(scene, camera)
